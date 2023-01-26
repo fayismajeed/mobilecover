@@ -1,0 +1,110 @@
+.one{
+    padding: 20px;
+    font-size: 15px;
+    background-color: #000000;
+    font-family:'nunuito',sans-serif;
+    color: #FFFFEF;
+}
+.home
+{
+    margin-left: 80px;
+}
+img{
+    
+    width: 100%;
+    height: 500px;
+    object-fit:cover;
+}
+
+.i14{
+    margin-left: 80px;
+}
+.i13
+{   
+    margin-left: 80px;
+}
+.i12
+{
+    margin-left: 80px;
+}
+.premium{
+    font-size: 4px;
+    padding: 50px;
+    text-align: center;
+    font-family:'nunuito',sans-serif;
+    font-weight: bold;
+    line-height: 1.65;
+    letter-spacing: 5px;
+    
+
+}
+nav {
+    padding: 20px;
+    font-size: 15px;
+    font-family: 'poppins',sans-serif;
+    
+}
+a
+{
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+.account{
+    height: 20px;
+    width: 50px; 
+}
+.last{
+    background-color: #000000;
+    padding: 80px;
+    color: #FFFFEF;
+
+}
+.a,.c{
+    position:relative;
+    bottom: 30px;
+    text-transform: uppercase;
+}
+.b{
+    font-size: 15px;
+}
+.text
+{
+background-color: #000000;
+border-color: #FFFFEF;
+height: 45px;
+width: 300px;
+color: #FFFFEF;
+}
+.button
+{
+background-color: #000000;
+border-color: #FFFFEF;
+height: 35px;
+color: #FFFFEF;
+width: 300px;
+}
+input::placeholder{
+    color:#FFFFEF;
+}
+.sub
+{
+    text-decoration: none;
+    color: #FFFFEF;
+}
+ul li{
+    position: relative;
+   
+}
+ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #000000 ;
+    position: absolute;
+    left: 85px;
+    bottom: -10px;
+    transition: 0.5s;
+}
+ul li:hover::after{
+    width: 50%;
+}
